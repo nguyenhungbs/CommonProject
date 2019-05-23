@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonProject", "CommonProject\CommonProject.csproj", "{4951D4B3-DB02-46A6-9192-A6C59B20E7FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{D26DF555-61E7-4D71-90E6-372505A3C6CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{2459C835-572C-4056-A3CD-A7151EA40DEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication", "Authentication", "{D78BA443-A057-4A52-83DC-D7970816AF4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC", "MVC", "{F1D94502-6F2D-43B1-94E8-328DE418CE6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonProject.Framework", "CommonProject.Framework\CommonProject.Framework.csproj", "{A2587247-732F-4450-9BAF-95AC991839E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonProject.Domain", "CommonProject.Domain\CommonProject.Domain.csproj", "{273CA95E-4053-4F52-AAC8-DDB08E71BC34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.MVC", "Common.MVC\Common.MVC.csproj", "{6161D3EF-5ECB-41B6-A584-5963D13A7811}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4951D4B3-DB02-46A6-9192-A6C59B20E7FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4951D4B3-DB02-46A6-9192-A6C59B20E7FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4951D4B3-DB02-46A6-9192-A6C59B20E7FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4951D4B3-DB02-46A6-9192-A6C59B20E7FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2587247-732F-4450-9BAF-95AC991839E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2587247-732F-4450-9BAF-95AC991839E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2587247-732F-4450-9BAF-95AC991839E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2587247-732F-4450-9BAF-95AC991839E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{273CA95E-4053-4F52-AAC8-DDB08E71BC34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{273CA95E-4053-4F52-AAC8-DDB08E71BC34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{273CA95E-4053-4F52-AAC8-DDB08E71BC34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{273CA95E-4053-4F52-AAC8-DDB08E71BC34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6161D3EF-5ECB-41B6-A584-5963D13A7811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6161D3EF-5ECB-41B6-A584-5963D13A7811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6161D3EF-5ECB-41B6-A584-5963D13A7811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6161D3EF-5ECB-41B6-A584-5963D13A7811}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2587247-732F-4450-9BAF-95AC991839E3} = {2459C835-572C-4056-A3CD-A7151EA40DEF}
+		{273CA95E-4053-4F52-AAC8-DDB08E71BC34} = {D26DF555-61E7-4D71-90E6-372505A3C6CA}
+		{6161D3EF-5ECB-41B6-A584-5963D13A7811} = {F1D94502-6F2D-43B1-94E8-328DE418CE6E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7D950D6-0691-44FB-AA71-3EC0C863690E}
+	EndGlobalSection
+EndGlobal
